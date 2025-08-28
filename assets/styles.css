@@ -9,6 +9,8 @@ body {
   --secondary-grey: #90a4ae;
 }
 
+/* BUTTONS */
+
 .btn-primary {
   background-color: var(--primary-blue);
   border: none;
@@ -23,7 +25,7 @@ body {
 }
 
 .btn-outline-primary {
-  border-color: var(--primary-blue);
+  border: 2px solid var(--primary-blue);
   color: var(--primary-grey);
   font-weight: 600;
   padding: 10px 20px;
@@ -33,4 +35,14 @@ body {
 .btn-outline-primary:hover {
   background-color: var(--secondary-grey);
   border-color: var(--secondary-grey);
+}
+
+/* HELPERS */
+
+.text-primary-grey {
+  color: var(--primary-grey);
+}
+
+.text-secondary-grey {
+  color: var(--secondary-grey);
 }

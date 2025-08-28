@@ -1,13 +1,11 @@
 <template>
   <div class="container">
-    <div class="row">
-      <SliderImages />
-    </div>
+    <WhoAreWe />
   </div>
 </template>
 
 <script setup>
-import SliderImages from '@/components/SliderImages.vue'
+import WhoAreWe from './WhoAreWe.vue'
 
 defineOptions({ name: 'HomeView' })
 </script>
