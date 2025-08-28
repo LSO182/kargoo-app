@@ -1,0 +1,36 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+  --primary-blue: #1fc2be;
+  --secondary-blue: #4dddd7;
+  --primary-grey: #37474f;
+  --secondary-grey: #90a4ae;
+}
+
+.btn-primary {
+  background-color: var(--primary-blue);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-blue);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary-blue);
+  color: var(--primary-grey);
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--secondary-grey);
+  border-color: var(--secondary-grey);
+}
