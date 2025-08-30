@@ -1,0 +1,16 @@
+{
+  "image": {
+    "src": "/assets/images/Logistica-de-transporte.jpg.webp",
+    "alt": "Imagen de transporte"
+  },
+  "title": "¿Quiénes somos?",
+  "subtitle": "Somos tu nuevo socio estratégico en logística.",
+  "paragraph": "Ofrecemos soluciones de transporte con flota dedicada, diseñadas para garantizar eficiencia, puntualidad y control total.",
+  "list": [
+    "Nos alineamos a tu operación.",
+    "No somos on demand. Somos parte de tu equipo.",
+    "Servicio diseñado y adaptado para tu negocio"
+  ],
+  "orderImg": "order-1",
+  "orderText": "order-2"
+}

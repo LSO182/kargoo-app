@@ -4,7 +4,7 @@
 
 <script setup>
 import ImageAndText from '@/components/ImageAndText.vue'
-import whoAreWeData from '@/data/whoAreWe.json'
+import whoAreWeData from '@/data/availableWorkZone.json'
 
-defineOptions({ name: 'WhoAreWe' })
+defineOptions({ name: 'WorkZone' })
 </script>

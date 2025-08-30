@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Transporte Urbano",
+    "subtitle": "Rápido y eficiente",
+    "text": "Ofrecemos entregas seguras y puntuales dentro de la ciudad, optimizando tiempos de tránsito y rutas.",
+    "links": [
+      { "label": "Ver más", "url": "#" },
+      { "label": "Cotizar", "url": "#" }
+    ]
+  },
+  {
+    "title": "Logística Nacional",
+    "subtitle": "Cobertura en todo el país",
+    "text": "Conectamos las principales ciudades y regiones, asegurando que tus productos lleguen a tiempo a cualquier destino.",
+    "links": [
+      { "label": "Detalles", "url": "#" },
+      { "label": "Contactar", "url": "#" }
+    ]
+  },
+  {
+    "title": "Flota Especializada",
+    "subtitle": "Adaptada a tus necesidades",
+    "text": "Contamos con vehículos de distintos tamaños, desde motos hasta camiones, para ajustarnos al volumen de tu carga.",
+    "links": [
+      { "label": "Nuestra flota", "url": "#" },
+      { "label": "Reservar", "url": "#" }
+    ]
+  }
+]

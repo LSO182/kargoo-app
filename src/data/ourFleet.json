@@ -1,0 +1,12 @@
+{
+  "image": {
+    "src": "/assets/images/Logistica-de-transporte.jpg.webp",
+    "alt": "Imagen de transporte"
+  },
+  "title": "Nuestra Flota",
+  "subtitle": "Soluciones logísticas adaptadas a cada necesidad, desde entregas urbanas rápidas hasta transporte de gran volumen en todo el país.",
+  "paragraph": "Ponemos a tu disposición una flota diversa y confiable, preparada para responder con eficiencia a los distintos requerimientos de tu operación logística.",
+  "list": ["Motito", "Sedán", "Camioncito", "Camioneta", "Camión"],
+  "orderImg": "order-1",
+  "orderText": "order-2"
+}

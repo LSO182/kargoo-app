@@ -1,0 +1,11 @@
+{
+  "image": {
+    "src": "/assets/images/Logistica-de-transporte.jpg.webp",
+    "alt": "Imagen de transporte"
+  },
+  "title": "Zona de Cobertura",
+  "paragraph": "Tenemos la flexibilidad y capacidad para expandir nuestras operaciones a otras regiones del país, adaptándonos a las necesidades específicas de cada cliente.",
+  "list": ["Santiago", "La Serena", "Valparaíso", "Concepción", "Valdivia", "Puerto Montt"],
+  "orderImg": "order-2",
+  "orderText": "order-1"
+}
