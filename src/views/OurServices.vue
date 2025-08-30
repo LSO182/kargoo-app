@@ -1,6 +1,6 @@
 <template>
-  <div id="our-fleet" class="gap-section">
-    <h3 class="h2 text-primary-grey text-center">Nuestros servicios</h3>
+  <div id="our-services" class="gap-section">
+    <h3 class="h1 text-primary-grey text-center">Nuestros servicios</h3>
     <p class="text-primary-grey text-center">Estos son los servicios que ofrecemos</p>
     <div
       class="row overflow-x-scroll overflow-x-lg-hidden overflow-y-hidden flex-nowrap flex-lg-wrap"

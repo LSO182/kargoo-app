@@ -1,5 +1,7 @@
 <template>
-  <ImageAndText :data="whoAreWeData" />
+  <div id="who-are-we">
+    <ImageAndText :data="whoAreWeData" />
+  </div>
 </template>
 
 <script setup>

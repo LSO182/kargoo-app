@@ -1,5 +1,7 @@
 <template>
-  <ImageAndText :data="whoAreWeData" />
+  <div id="work-zone">
+    <ImageAndText :data="whoAreWeData" />
+  </div>
 </template>
 
 <script setup>
