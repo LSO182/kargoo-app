@@ -1,6 +1,8 @@
 <template>
   <div id="who-are-we">
-    <ImageAndText :data="whoAreWeData" />
+    <div class="container">
+      <ImageAndText :data="whoAreWeData" />
+    </div>
   </div>
 </template>
 

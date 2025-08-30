@@ -1,11 +1,9 @@
 <template>
-  <div class="container">
-    <WhoAreWe />
-    <OurServices />
-    <WorkZone />
-    <OurFleet />
-    <ContactForm />
-  </div>
+  <WhoAreWe />
+  <OurServices />
+  <WorkZone />
+  <OurFleet />
+  <ContactForm />
 </template>
 
 <script setup>
