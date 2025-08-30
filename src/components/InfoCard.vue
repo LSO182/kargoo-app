@@ -29,7 +29,6 @@ defineProps({
 }
 .card:hover {
   box-shadow: var(--bs-box-shadow);
-  transform: translateY(-5px);
   transition: all 0.3s ease-in-out;
 }
 .icon-bg {
