@@ -39,10 +39,18 @@ body {
 
 /* HELPERS */
 
+.bg-primary {
+  background-color: var(--primary-blue) !important;
+}
+
 .text-primary-grey {
   color: var(--primary-grey);
 }
 
 .text-secondary-grey {
   color: var(--secondary-grey);
+}
+
+.gap-section {
+  margin: 5rem 0;
 }

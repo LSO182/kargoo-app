@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-xl bg-white shadow-sm">
-    <div class="container-fluid">
+    <div class="container-fluid container">
       <img src="/assets/images/logo-kargoo.png" alt="Logo kargoo" class="logo" />
       <button
         class="navbar-toggler ms-auto"
