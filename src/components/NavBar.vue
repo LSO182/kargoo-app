@@ -85,7 +85,6 @@ defineOptions({ name: 'NavBar' })
 
 const activeSection = ref('')
 
-// secciones que quieres vigilar
 const sections = ['who-are-we', 'our-services', 'work-zone', 'our-fleet', 'contact-form']
 
 let observer
@@ -99,7 +98,7 @@ onMounted(() => {
         }
       })
     },
-    { threshold: 0.6 }, // 60% visible para marcarla activa
+    { threshold: 0.6 }, // 60% visible para marcar activa la sección
   )
 
   sections.forEach((id) => {

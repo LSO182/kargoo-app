@@ -1,20 +1,32 @@
 [
   {
-    "title": "Transporte Urbano",
-    "subtitle": "Rápido y eficiente",
-    "text": "Ofrecemos entregas seguras y puntuales dentro de la ciudad, optimizando tiempos de tránsito y rutas.",
-    "link": { "label": "Ver más", "url": "#" }
+    "icon": "storefront",
+    "title": "Primera Milla",
+    "subtitle": "Logística ágil, confiable y escalable",
+    "list": [
+      "Recolectamos donde empieza tu operación.",
+      "Primera milla segura y  precisa.",
+      "Del origen al centro logístico, sin desvíos."
+    ]
   },
   {
-    "title": "Logística Nacional",
-    "subtitle": "Cobertura en todo el país",
-    "text": "Conectamos las principales ciudades y regiones, asegurando que tus productos lleguen a tiempo a cualquier destino.",
-    "link": { "label": "Detalles", "url": "#" }
+    "icon": "local_shipping",
+    "title": "Última Milla",
+    "subtitle": "Logística ágil, confiable y escalable",
+    "list": [
+      "Servicio Same Day: Entregas precisas, siempre a tiempo.",
+      "Cuidamos tu marca hasta la puerta del cliente.",
+      "Última milla diseñada para escalar sin perder calidad."
+    ]
   },
   {
-    "title": "Flota Especializada",
-    "subtitle": "Adaptada a tus necesidades",
-    "text": "Contamos con vehículos de distintos tamaños, desde motos hasta camiones, para ajustarnos al volumen de tu carga.",
-    "link": { "label": "Nuestra flota", "url": "#" }
+    "icon": "business_center",
+    "title": "Servicio B2B",
+    "subtitle": "Logística ágil, confiable y escalable",
+    "list": [
+      "Movemos tu negocio con eficiencia.",
+      "Red logística optimizada para empresas.",
+      "Despachos entre puntos comerciales, sin fricciones."
+    ]
   }
 ]

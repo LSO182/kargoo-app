@@ -57,6 +57,18 @@ html {
   background-color: var(--primary-blue) !important;
 }
 
+.bg-primary-grey {
+  background-color: var(--primary-grey) !important;
+}
+
+.bg-custom-grey-light {
+  background-color: #f5f5f5 !important;
+}
+
+.text-primary-blue {
+  color: var(--primary-blue);
+}
+
 .text-primary-grey {
   color: var(--primary-grey);
 }

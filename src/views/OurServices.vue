@@ -12,9 +12,10 @@
           :key="index"
         >
           <InfoCard
+            :icon="service.icon"
             :title="service.title"
             :subtitle="service.subtitle"
-            :text="service.text"
+            :list="service.list"
             :link="service.link"
           />
         </div>
