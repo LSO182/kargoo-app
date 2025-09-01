@@ -38,6 +38,8 @@ defineOptions({ name: 'ImageAndText' })
 <style lang="css" scoped>
 .image-text-img {
   border-radius: 25px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 .slide-in-blurred-left {
