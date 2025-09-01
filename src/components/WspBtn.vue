@@ -1,6 +1,6 @@
 <template>
   <a
-    href="https://wa.me/5491123456789"
+    href="https://wa.me/5493513392121"
     target="_blank"
     class="whatsapp-float"
     aria-label="WhatsApp"
