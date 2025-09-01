@@ -7,48 +7,55 @@
       <button
         class="navbar-toggler ms-auto"
         type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        @click="menuOpen = !menuOpen"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div :class="['collapse navbar-collapse', { show: menuOpen }]" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a
+            <router-link
               class="nav-link text-small"
-              :class="{ active: activeSection === 'who-are-we' }"
-              href="/#who-are-we"
-              >¿Quiénes somos?</a
+              :class="{ active: props.activeSection === 'who-are-we' }"
+              :to="{ path: '/', hash: '#who-are-we' }"
+              @click="handleLinkClick"
             >
+              ¿Quiénes somos?
+            </router-link>
           </li>
           <li class="nav-item">
-            <a
+            <router-link
               class="nav-link text-small"
-              :class="{ active: activeSection === 'our-services' }"
-              href="/#our-services"
-              >Nuestros servicios</a
+              :class="{ active: props.activeSection === 'our-services' }"
+              :to="{ path: '/', hash: '#our-services' }"
+              @click="handleLinkClick"
             >
+              Nuestros servicios
+            </router-link>
           </li>
           <li class="nav-item">
-            <a
+            <router-link
               class="nav-link text-small"
-              :class="{ active: activeSection === 'work-zone' }"
-              href="/#work-zone"
-              >Zona de Cobertura</a
+              :class="{ active: props.activeSection === 'work-zone' }"
+              :to="{ path: '/', hash: '#work-zone' }"
+              @click="handleLinkClick"
             >
+              Zona de Cobertura
+            </router-link>
           </li>
           <li class="nav-item">
-            <a
+            <router-link
               class="nav-link text-small"
-              :class="{ active: activeSection === 'our-fleet' }"
-              href="/#our-fleet"
-              >Nuestra Flota</a
+              :class="{ active: props.activeSection === 'our-fleet' }"
+              :to="{ path: '/', hash: '#our-fleet' }"
+              @click="handleLinkClick"
             >
+              Nuestra Flota
+            </router-link>
           </li>
         </ul>
         <div class="d-flex flex-column d-xl-none align-items-center justify-content-between">
@@ -56,24 +63,28 @@
           <a href="#" class="btn btn-outline-primary d-xl-inline-flex my-2"
             >Quiero ser repartidor</a
           >
-          <a
-            href="#contact-form"
+          <router-link
             class="btn btn-outline-primary d-xl-inline-flex"
-            :class="{ active: activeSection === 'contact-form' }"
-            >Contáctanos</a
+            :class="{ active: props.activeSection === 'contact-form' }"
+            :to="{ path: '/', hash: '#contact-form' }"
+            @click="handleLinkClick"
           >
+            Contáctanos
+          </router-link>
         </div>
       </div>
 
       <div class="d-none d-xl-flex align-items-center justify-content-between">
         <a href="#" class="btn btn-primary d-xl-inline-flex me-2">Quiero enviar con Kargoo</a>
         <a href="#" class="btn btn-outline-primary d-xl-inline-flex me-2">Quiero ser repartidor</a>
-        <a
-          href="#contact-form"
+        <router-link
           class="btn btn-outline-primary d-xl-inline-flex"
-          :class="{ active: activeSection === 'contact-form' }"
-          >Contáctanos</a
+          :class="{ active: props.activeSection === 'contact-form' }"
+          :to="{ path: '/', hash: '#contact-form' }"
+          @click="handleLinkClick"
         >
+          Contáctanos
+        </router-link>
       </div>
     </div>
   </nav>
@@ -81,35 +92,37 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
-
+const props = defineProps({
+  activeSection: String,
+})
 defineOptions({ name: 'NavBar' })
 
-const activeSection = ref('')
-
-const sections = ['who-are-we', 'our-services', 'work-zone', 'our-fleet', 'contact-form']
+const menuOpen = ref(false)
 
 let observer
 
-onMounted(() => {
-  observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          activeSection.value = entry.target.id
-        }
-      })
-    },
-    { threshold: 0.9 }, // 90% visible para marcar activa la sección
-  )
+// Función para cerrar menú si clickeas fuera
+const handleOutsideClick = (event) => {
+  const menu = document.getElementById('navbarSupportedContent')
+  const toggleBtn = document.querySelector('.navbar-toggler')
+  if (menu && !menu.contains(event.target) && toggleBtn && !toggleBtn.contains(event.target)) {
+    menuOpen.value = false
+  }
+}
 
-  sections.forEach((id) => {
-    const el = document.getElementById(id)
-    if (el) observer.observe(el)
-  })
+// Función para cerrar menú al click en cualquier link
+const handleLinkClick = () => {
+  menuOpen.value = false
+}
+
+onMounted(() => {
+  // Listener global para clicks fuera del menú
+  document.addEventListener('click', handleOutsideClick)
 })
 
 onBeforeUnmount(() => {
   if (observer) observer.disconnect()
+  document.removeEventListener('click', handleOutsideClick)
 })
 </script>
 
