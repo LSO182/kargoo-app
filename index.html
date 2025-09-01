@@ -13,11 +13,56 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
+
+    <meta name="title" content="Kargoo | Tu socio estratégico en logística" />
+    <meta
+      name="description"
+      content="Con Kargoo tus envíos llegan más rápido y con total seguridad. Somos tu socio estratégico en logística y transporte."
+    />
+    <meta name="author" content="Kargoo" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kargoo | Tu socio estratégico en logística" />
+    <meta
+      name="twitter:description"
+      content="Con Kargoo tus envíos llegan más rápido y con total seguridad. Somos tu socio estratégico en logística y transporte."
+    />
+    <meta
+      name="twitter:image"
+      content="https://kargoo-app.netlify.app/assets/images/logo-kargoo.png"
+    />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Hola-C | Agiliza el acceso a tus visitas" />
+    <meta
+      property="og:description"
+      content="Con Hola-C tus visitas ya no tendrán que esperar en la guardia. Nuestra aplicación agiliza los controles de acceso haciendo más eficientes los ingresos y egresos."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kargoo-app.netlify.app" />
+    <meta property="og:image" content="/assets/images/logo-kargoo.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Kargoo</title>
   </head>
   <body>
     <div id="app"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kargoo",
+        "url": "https://kargoo-app.netlify.app",
+        "logo": "https://kargoo-app.netlify.app/assets/images/logo-kargoo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "areaServed": "AR",
+          "availableLanguage": ["Spanish"]
+        }
+      }
+    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

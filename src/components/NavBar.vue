@@ -98,7 +98,7 @@ onMounted(() => {
         }
       })
     },
-    { threshold: 0.6 }, // 60% visible para marcar activa la sección
+    { threshold: 0.9 }, // 90% visible para marcar activa la sección
   )
 
   sections.forEach((id) => {
