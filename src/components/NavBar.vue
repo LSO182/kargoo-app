@@ -1,8 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-xl bg-white shadow-sm fixed-top">
     <div class="container-fluid container">
-      <img src="/assets/images/logo-kargoo.png" alt="Logo kargoo" class="logo" />
-
+      <a href="/">
+        <img src="/assets/images/logo-kargoo.png" alt="Logo kargoo" class="logo" />
+      </a>
       <button
         class="navbar-toggler ms-auto"
         type="button"
@@ -21,7 +22,7 @@
             <a
               class="nav-link text-small"
               :class="{ active: activeSection === 'who-are-we' }"
-              href="#who-are-we"
+              href="/#who-are-we"
               >¿Quiénes somos?</a
             >
           </li>
@@ -29,7 +30,7 @@
             <a
               class="nav-link text-small"
               :class="{ active: activeSection === 'our-services' }"
-              href="#our-services"
+              href="/#our-services"
               >Nuestros servicios</a
             >
           </li>
@@ -37,7 +38,7 @@
             <a
               class="nav-link text-small"
               :class="{ active: activeSection === 'work-zone' }"
-              href="#work-zone"
+              href="/#work-zone"
               >Zona de Cobertura</a
             >
           </li>
@@ -45,7 +46,7 @@
             <a
               class="nav-link text-small"
               :class="{ active: activeSection === 'our-fleet' }"
-              href="#our-fleet"
+              href="/#our-fleet"
               >Nuestra Flota</a
             >
           </li>
