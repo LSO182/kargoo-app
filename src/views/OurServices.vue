@@ -1,5 +1,5 @@
 <template>
-  <div id="our-services" class="gap-section our-services">
+  <div id="our-services" class="gap-section bg-custom-grey-light">
     <div class="container">
       <h3 class="h1 text-primary-grey text-center">Nuestros servicios</h3>
       <p class="text-primary-grey text-center">Estos son los servicios que ofrecemos</p>
