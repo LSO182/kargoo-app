@@ -60,7 +60,11 @@
         </ul>
         <div class="d-flex flex-column d-xl-none align-items-center justify-content-between">
           <a href="#" class="btn btn-primary d-xl-inline-flex my-2">Quiero enviar con Kargoo</a>
-          <a href="#" class="btn btn-outline-primary d-xl-inline-flex my-2"
+          <a
+            href="https://docs.google.com/forms/d/1lpOTo1v-FMFXNrp2OfA4SW4iYKFPQlZ1POS3Al-wyxM/edit"
+            class="btn btn-outline-primary d-xl-inline-flex my-2"
+            target="_blank"
+            rel="noreferrer noopener"
             >Quiero ser repartidor</a
           >
           <router-link
@@ -76,7 +80,13 @@
 
       <div class="d-none d-xl-flex align-items-center justify-content-between">
         <a href="#" class="btn btn-primary d-xl-inline-flex me-2">Quiero enviar con Kargoo</a>
-        <a href="#" class="btn btn-outline-primary d-xl-inline-flex me-2">Quiero ser repartidor</a>
+        <a
+          href="https://docs.google.com/forms/d/1lpOTo1v-FMFXNrp2OfA4SW4iYKFPQlZ1POS3Al-wyxM/edit"
+          class="btn btn-outline-primary d-xl-inline-flex me-2"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Quiero ser repartidor</a
+        >
         <router-link
           class="btn btn-outline-primary d-xl-inline-flex"
           :class="{ active: props.activeSection === 'contact-form' }"
