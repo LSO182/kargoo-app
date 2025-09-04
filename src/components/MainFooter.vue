@@ -6,9 +6,15 @@
           Impulsando la logística del futuro 🚀
         </p>
         <p class="text-white mt-3 mb-0 text-center">
-          © 2025 - Todos los derechos reservados | Kargoo SPA | RUT 78209183-2 | contacto@kargoo.co
+          © 2025 - Todos los derechos reservados | Kargoo SPA | RUT 78209183-2 |
+          <a
+            href="mailto:contacto@kargoo.co?subject=Consulta%20desde%20la%20web"
+            class="text-white"
+          >
+            contacto@kargoo.co
+          </a>
         </p>
-        <div class="d-flex justify-content-center align-items-center mt-3">
+        <div class="d-flex justify-content-center align-items-center mt-3 flex-wrap">
           <router-link class="text-white" to="/terms">Términos de Servicio</router-link
           ><span class="text-white mx-2">|</span>
           <router-link class="text-white" to="/legal">Legales</router-link
@@ -24,6 +30,6 @@
 
 <style lang="css" scoped>
 .main-footer {
-  min-height: 300px;
+  min-height: 250px;
 }
 </style>
