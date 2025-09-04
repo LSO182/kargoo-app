@@ -24,6 +24,18 @@
           Cualquier disputa se regirá por la legislación chilena y será resuelta en los tribunales
           ordinarios de Coquimbo.
         </p>
+
+        <h3 class="mt-4 fw-bold text-primary-blue">Domicilio Legal</h3>
+        <p>Pasaje Santiago Zavala 337, Pta Mira Sindempart, Coquimbo, Chile.</p>
+
+        <h3 class="mt-4 fw-bold text-primary-blue">Representante Legal</h3>
+        <p>Andrea Carolina Mordini Ardiles, RUT 8.937.336-0.</p>
+
+        <h3 class="mt-4 fw-bold text-primary-blue">Razón Social</h3>
+        <p>Kargoo SPA.</p>
+
+        <h3 class="mt-4 fw-bold text-primary-blue">RUT</h3>
+        <p>78.209.183-2.</p>
       </div>
     </div>
   </div>
