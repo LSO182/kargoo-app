@@ -1,5 +1,5 @@
 <template>
-  <div class="main-footer bg-primary">
+  <div class="main-footer bg-primary py-3">
     <div class="container">
       <div class="row flex-column justify-content-center align-items-center">
         <p class="text-white mt-3 mb-0 text-center fw-bold">
