@@ -4,7 +4,7 @@
       <div class="row gap-section align-items-center" id="contact-form">
         <div class="col-lg-6 d-none d-lg-block order-lg-2">
           <img
-            src="/assets/images/logistica-de-transporte.jpg"
+            src="/assets/images/img-contact-form-final.png"
             class="img-fluid image-text-img"
             alt="Imagen form"
           />

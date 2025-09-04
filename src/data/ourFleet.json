@@ -4,9 +4,13 @@
     "alt": "Imagen de transporte"
   },
   "title": "Nuestra Flota",
-  "subtitle": "Soluciones logísticas adaptadas a cada necesidad, desde entregas urbanas rápidas hasta transporte de gran volumen en todo el país.",
-  "paragraph": "Ponemos a tu disposición una flota diversa y confiable, preparada para responder con eficiencia a los distintos requerimientos de tu operación logística.",
-  "list": ["Motito", "Sedán", "Camioncito", "Camioneta", "Camión"],
+  "subtitle": "En Kargoo sabemos que tus necesidades como cliente son únicas , y es por eso que ponemos a tu disposición una flota adaptable, flexible y con disponibilidad inmediata, capaz de cubrir desde envíos pequeños hasta cargas de mayor volumen.",
+  "paragraph": "Contamos con la capacidad de sumar camiones de mayor porte, con rampla hidráulica y refrigerados, a requerimiento del cliente. Nuestro compromiso es ofrecerte la solución logística más eficiente para cada desafío, asegurando que tu carga llegue a tiempo y en óptimas condiciones.",
+  "list": [
+    "City Car / Sedán: entregas rápidas y ágiles dentro de la ciudad.",
+    "Furgón: ideal para cargas medianas, combinando capacidad y eficiencia.",
+    "Camión Ultraliviano 3/4 (con y sin cúpula): perfecto para transportar mercadería de mayor tamaño, protegido y adaptado a distintos tipos de carga."
+  ],
   "orderImg": "order-1",
   "orderText": "order-2"
 }

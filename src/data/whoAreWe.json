@@ -1,15 +1,15 @@
 {
   "image": {
-    "src": "/assets/images/logistica-de-transporte.jpg",
-    "alt": "Imagen de transporte"
+    "src": "/assets/images/img-who-are-we.png",
+    "alt": "Who are we"
   },
   "title": "¿Quiénes somos?",
-  "subtitle": "Somos tu nuevo socio estratégico en logística.",
-  "paragraph": "Ofrecemos soluciones de transporte con flota dedicada, diseñadas para garantizar eficiencia, puntualidad y control total.",
+  "subtitle": "En Kargoo SPA somos mucho más que un proveedor logístico: somos tu socio estratégico en transporte y distribución.",
+  "paragraph": " Nacimos como una startup dinámica e innovadora, potenciada por un equipo con más de 10 años de experiencia consolidada, moviendo lo que realmente importa: la confianza de nuestros clientes. Nuestro objetivo es ofrecer soluciones de transporte con flota dedicada, diseñadas para brindar eficiencia, puntualidad y control total en cada operación. Lo que nos diferencia:",
   "list": [
-    "Nos alineamos a tu operación.",
-    "No somos on demand. Somos parte de tu equipo.",
-    "Servicio diseñado y adaptado para tu negocio"
+    "Nos alineamos con tu operación: trabajamos bajo tu lógica y procesos, asegurando continuidad sin fricciones.",
+    "No somos on demand: somos parte de tu equipo, con compromiso constante y capacidad de respuesta planificada..",
+    "Servicio diseñado para tu negocio: adaptamos nuestra propuesta a tus necesidades específicas, logrando sinergia total"
   ],
   "orderImg": "order-2",
   "orderText": "order-1"

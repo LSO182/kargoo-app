@@ -5,6 +5,17 @@ import HomeView from '../views/HomeView.vue'
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
   { path: '/cookies', name: 'CookiesView', component: () => import('../views/CookiesView.vue') },
+  {
+    path: '/privacy',
+    name: 'PrivacyPolicy',
+    component: () => import('../views/PrivacyPolicy.vue'),
+  },
+  {
+    path: '/terms',
+    name: 'TermsAndConditions',
+    component: () => import('../views/TermsAndConditions.vue'),
+  },
+  { path: '/legal', name: 'LegalView', component: () => import('../views/LegalView.vue') },
 ]
 
 const router = createRouter({

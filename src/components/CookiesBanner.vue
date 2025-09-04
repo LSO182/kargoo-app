@@ -17,9 +17,7 @@
             al aceptarlas, consientes el uso de datos según nuestra política.
           </p>
           <div class="d-flex align-items-center">
-            <router-link to="/cookies" class="btn-link" target="_blank"
-              >Política de Cookies</router-link
-            >
+            <router-link to="/cookies" class="btn-link">Política de Cookies</router-link>
             <button class="btn btn-outline-primary mx-3" @click="rejectCookies">Rechazar</button>
             <button class="btn btn-primary" @click="acceptCookies">Aceptar</button>
           </div>
