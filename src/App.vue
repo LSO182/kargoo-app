@@ -1,5 +1,4 @@
 <template>
-  <WspBtn />
   <CookiesBanner />
   <NavBar :activeSection="activeSection" />
   <RouterView @update:activeSection="handleActiveSection" />
@@ -9,7 +8,6 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import MainFooter from './components/MainFooter.vue'
-import WspBtn from './components/WspBtn.vue'
 import CookiesBanner from './components/CookiesBanner.vue'
 
 import { ref } from 'vue'
