@@ -16,6 +16,7 @@ const routes = [
     component: () => import('../views/TermsAndConditions.vue'),
   },
   { path: '/legal', name: 'LegalView', component: () => import('../views/LegalView.vue') },
+  { path: '/send', name: 'BtobForm', component: () => import('../views/BtobForm.vue') },
 ]
 
 const router = createRouter({
@@ -23,9 +24,7 @@ const router = createRouter({
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition
-
     if (to.hash) {
-      // intentamos encontrar el elemento hasta un timeout
       return new Promise((resolve) => {
         const tries = 20
         let i = 0
@@ -36,20 +35,17 @@ const router = createRouter({
             const offset = navbar ? navbar.offsetHeight : 0
             const top = el.getBoundingClientRect().top + window.pageYOffset - offset - 8
             window.scrollTo({ top, behavior: 'smooth' })
-            // resolvemos con la posición final (opcional)
             resolve({ left: 0, top })
           } else if (i < tries) {
             i++
             setTimeout(waitForEl, 50)
           } else {
-            // si no aparece, resolvemos a top 0
             resolve({ left: 0, top: 0 })
           }
         }
         waitForEl()
       })
     }
-
     return { left: 0, top: 0 }
   },
 })

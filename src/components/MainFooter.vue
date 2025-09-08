@@ -21,6 +21,22 @@
           ><span class="text-white mx-2">|</span>
           <router-link class="text-white" to="/privacy">Política de Privacidad</router-link>
         </div>
+        <div class="d-flex justify-content-center align-items-center mt-3">
+          <a
+            href="https://www.linkedin.com/company/kargoologistic/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="text-white"
+            ><img src="/public/assets/images/icons8-linkedin-24.png" alt="Linkedin logo" />
+          </a>
+          <a
+            href="https://www.instagram.com/kargoo.cl?igsh=MTlwNzU5eWdzZHloYQ%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="text-white"
+            ><img src="/public/assets/images/icons8-instagram-24.png" alt="Linkedin logo" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
